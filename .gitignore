@@ -1,0 +1,22 @@
+# R specific files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rapp.history
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project-specific temporary files
+zz_old/
+*.pdf
+*.pptx
+*.zip
+
+# Specifically allow professional deliverables
+!Mortality_Forecasting_Report.pdf
+!Mortality_Forecasting_Presentation.pptx
+!README.md
+!mortality_analysis.R
