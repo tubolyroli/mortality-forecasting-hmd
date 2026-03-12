@@ -17,6 +17,5 @@ zz_old/
 
 # Specifically allow professional deliverables
 !Mortality_Forecasting_Report.pdf
-!Mortality_Forecasting_Presentation.pptx
 !README.md
 !mortality_analysis.R

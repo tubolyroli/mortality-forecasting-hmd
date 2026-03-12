@@ -42,4 +42,6 @@ The goal is to evaluate the out-of-sample performance of the Lee-Carter model us
 3.  Open `mortality_analysis.R` and run the script. It uses relative paths, so as long as your working directory is the root of this folder, it will work automatically.
 
 ## Results Summary
-The analysis generally shows that while SVD is computationally simpler, **Poisson MLE (particularly via BFGS)** often provides superior forecasting accuracy for specific countries or sex-specific data where the Poisson assumption better captures the variance of death counts.
+The analysis shows that the **classic SVD estimation** remains highly competitive, achieving the lowest out-of-sample RMSE in **51 out of 60** country-sex cases. 
+
+While **Poisson MLE (via BFGS)** is theoretically more robust to death count variability, it provided superior accuracy in approximately **15% of the cases** (9 out of 60). The results suggest that for the 1960–2004 period in these HMD countries, the log-normal assumption of the SVD method is a strong approximation for mortality forecasting.
